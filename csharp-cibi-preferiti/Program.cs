@@ -23,6 +23,18 @@
             // Il mio cibo ultimo in classifica
             Console.WriteLine("Un cibo che mi piace ma non troppo: " + cibiPreferiti[cibiPreferiti.Length - 1]);
 
+            // BONUS: Stampa del cibo a mezza classifica
+            if (cibiPreferiti.Length % 2 == 0) // Se il numero di elementi è pari
+            {
+                int indexMed1 = cibiPreferiti.Length / 2 - 1;
+                int indexMed2 = cibiPreferiti.Length / 2;
+                Console.WriteLine("I miei cibi di mezza classifica: " + cibiPreferiti[indexMed1] + ", " + cibiPreferiti[indexMed2]);
+            }
+            else // Se il numero di elementi è dispari
+            {
+                int indexMed = cibiPreferiti.Length / 2;
+                Console.WriteLine("Il mio cibo di mezza classifica: " + cibiPreferiti[indexMed]);
+            }
         }
     }
 }
