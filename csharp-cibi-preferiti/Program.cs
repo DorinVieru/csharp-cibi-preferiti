@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            // Inizializzazione dell'array con i cibi preferiti
+            string[] cibiPreferiti = { "Pizza", "Scamorza", "Gelato", "Hamburger di tacchino", "Sushi", "Zuppa di zucca", "Pasta", "Fagioli" };
+
+            // Lunghezza della classifica
+            Console.WriteLine("Lunghezza della classifica dei miei cibi preferiti: " + cibiPreferiti.Length);
+
         }
     }
 }
