@@ -10,6 +10,13 @@
             // Lunghezza della classifica
             Console.WriteLine("Lunghezza della classifica dei miei cibi preferiti: " + cibiPreferiti.Length);
 
+            // Classifica in ordine dei cibi preferiti
+            Console.WriteLine("I miei cibi preferiti in ordine di importanza:");
+            for (int i = 0; i < cibiPreferiti.Length; i++)
+            {
+                Console.WriteLine((i + 1) + ". " + cibiPreferiti[i]);
+            }
+
         }
     }
 }
