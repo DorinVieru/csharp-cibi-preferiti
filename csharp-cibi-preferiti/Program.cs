@@ -17,6 +17,12 @@
                 Console.WriteLine((i + 1) + ". " + cibiPreferiti[i]);
             }
 
+            // Il mio cibo top
+            Console.WriteLine("Il mio cibio preferito: " + cibiPreferiti[0]);
+
+            // Il mio cibo ultimo in classifica
+            Console.WriteLine("Un cibo che mi piace ma non troppo: " + cibiPreferiti[cibiPreferiti.Length - 1]);
+
         }
     }
 }
